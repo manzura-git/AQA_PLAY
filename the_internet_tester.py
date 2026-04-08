@@ -27,6 +27,3 @@ with sync_playwright() as drv:
     current_url = navigate_to_example(TITLE_FORM_AUTH)
     assert "/login" in current_url, "Не та страница!"
     print(f"✅ Перешли в: Form Authentication | URL: {current_url}")
-
-
-
